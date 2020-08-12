@@ -57,17 +57,13 @@ function promptUser() {
             name: "contributors"
         }, {
             type: "input",
-            message: "Provide and examples of your project and let us know how to run them.",
+            message: "Provide and examples of your project and let us know how to run them?.",
             name: "test"
         },
+      
         {
             type: "input",
-            message: "Contact info for further questions",
-            name: "Questions"
-        },
-        {
-            type: "input",
-            message: "Your Github username",
+            message: "Your Github URL?",
             name: "Username"
         },
         {
@@ -89,6 +85,8 @@ function generateMarkdownLang(response) {
 * [Usage](#usage)
 * [Contributors](#contributors)
 * [Testing](#test)
+* [Github](#github)
+* [Email](#email)
 ## <a name="description">Description:</a>
     ${response.description}
 ## <a name="license">License:</a>
@@ -103,7 +101,12 @@ function generateMarkdownLang(response) {
     ${response.test}
 ## <a name="questions">Questions:</a>
     ${response.questions} 
+## <a name="github">Github URL:</a>
+   ${response.github}
+## <a name="Email">Email:</a>
+${response.Email}
     `
+
 };
 
 async function init() {

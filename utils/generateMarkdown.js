@@ -2,30 +2,36 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## Table of Contents
+  * Table of Contents
+* [Questions](#questions)
 * [Description](#description)
-*[Table of Contents](#table of contents)
+* [License](#license)
 * [Installation](#installation)
 * [Usage](#usage)
-* [License](#license)
 * [Contributors](#contributors)
-* [Test](#test)
-* [Questions](#questions)
-## Description
-${data.Description}
-## Installation 
-${data.Installation}
-## Usage 
-${data.Usage}
-## License
-${data.License}
-## Contributors
-${data.Contributors}
-## Test
-${data.Test}
-## Questions
-Contact me:
+* [Testing](#test)
+* [Github](#github)
+* [Email](#email)
+## <a name="description">Description:</a>
+    ${response.description}
+## <a name="license">License:</a>
+    ${response.license}
+## <a name="installation">Installation:</a>
+    ${response.installation}
+## <a name="usage">Usage:</a>
+    ${response.usage}
+## <a name="contributing">Contributing:</a>
+    ${response.contributing}
+## <a name="test">Testing:</a>
+    ${response.test}
+## <a name="questions">Questions:</a>
+    ${response.questions} 
+## <a name="github">Github URL:</a>
+   ${response.github}
+## <a name="Email">Email:</a>
+${response.Email}
 `;
 }
+
 
 module.exports = generateMarkdown;

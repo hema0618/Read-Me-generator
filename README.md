@@ -1,5 +1,5 @@
 
-# 
+# Read me genrator
 * Table of Contents
 * [Questions](#questions)
 * [Description](#description)
@@ -8,8 +8,10 @@
 * [Usage](#usage)
 * [Contributors](#contributors)
 * [Testing](#test)
+* [Github](#github)
+* [Email](#email)
 ## <a name="description">Description:</a>
-    
+    Generates readme's based on user
 ## <a name="license">License:</a>
     undefined
 ## <a name="installation">Installation:</a>
@@ -19,7 +21,11 @@
 ## <a name="contributing">Contributing:</a>
     undefined
 ## <a name="test">Testing:</a>
-    
+    Run the index.js to generate readme's
 ## <a name="questions">Questions:</a>
     undefined 
+## <a name="github">Github URL:</a>
+   undefined
+## <a name="Email">Email:</a>
+khemalatha507@gmail.com
     
