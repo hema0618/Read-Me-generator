@@ -92,7 +92,7 @@ function generateMarkdownLang(response) {
 ## <a name="license">License:</a>
     ${response.license}
 ## <a name="installation">Installation:</a>
-    ${response.installation};
+    ${response.installation}
 ## <a name="usage">Usage:</a>
     ${response.usage}
 ## <a name="contributing">Contributing:</a>
@@ -102,8 +102,9 @@ function generateMarkdownLang(response) {
 ## <a name="questions">Questions:</a>
     ${response.questions} 
 ## <a name="github">Github URL:</a>
-   ${response.github}
+   $[{response.github}] (${response.github})
 ## <a name="Email">Email:</a>
+
 ${response.Email}
     `
 

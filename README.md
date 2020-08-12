@@ -1,5 +1,5 @@
 
-# Read me genrator
+# ReadMe Generator
 * Table of Contents
 * [Questions](#questions)
 * [Description](#description)
@@ -11,11 +11,11 @@
 * [Github](#github)
 * [Email](#email)
 ## <a name="description">Description:</a>
-    Generates readme's based on user
+    Generates dynamic readme's according to the user prompts
 ## <a name="license">License:</a>
     undefined
 ## <a name="installation">Installation:</a>
-    undefined;
+    undefined
 ## <a name="usage">Usage:</a>
     undefined
 ## <a name="contributing">Contributing:</a>
@@ -25,7 +25,8 @@
 ## <a name="questions">Questions:</a>
     undefined 
 ## <a name="github">Github URL:</a>
-   undefined
+   $[{response.github}] (undefined)
 ## <a name="Email">Email:</a>
+
 khemalatha507@gmail.com
     
