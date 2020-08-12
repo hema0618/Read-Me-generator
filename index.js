@@ -54,11 +54,26 @@ function promptUser() {
         {
             type: "input",
             message: "Did you collaberate with anyone? If so provide github links for yours and any contributors.",
-            name: "contributing"
+            name: "contributors"
         }, {
             type: "input",
             message: "Provide and examples of your project and let us know how to run them.",
             name: "test"
+        },
+        {
+            type: "input",
+            message: "Contact info for further questions",
+            name: "Questions"
+        },
+        {
+            type: "input",
+            message: "Your Github username",
+            name: "Username"
+        },
+        {
+            type: "input",
+            message: "What is your email?",
+            name: "Email"
         }
     ]);
 }
@@ -66,13 +81,13 @@ function promptUser() {
 function generateMarkdownLang(response) {
     return `
 # ${response.title}
-## Table of Contents
-    
+* Table of Contents
+* [Questions](#questions)
 * [Description](#description)
 * [License](#license)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Contributing](#contributing)
+* [Contributors](#contributors)
 * [Testing](#test)
 ## <a name="description">Description:</a>
     ${response.description}
@@ -86,6 +101,8 @@ function generateMarkdownLang(response) {
     ${response.contributing}
 ## <a name="test">Testing:</a>
     ${response.test}
+## <a name="questions">Questions:</a>
+    ${response.questions} 
     `
 };
 
